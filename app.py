@@ -8,7 +8,7 @@ app = Flask(__name__)
 url = "https://612db2b8e579e1001791dc8d.mockapi.io/api/v1/users"
 
 get_result = requests.get(url)
-
+# johnsons baby
 
 @app.route("/usuarios")
 def pegar_usuarios():
